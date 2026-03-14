@@ -7,7 +7,7 @@ services:
       - "25565:25565"
     environment:
       EULA: "TRUE"
-      VERSION: "snapshot"
-      MEMORRY: "12G"
+      Type: FABRIC
+      MEMORY: 5G
     volumes:
       - ./data:/data
